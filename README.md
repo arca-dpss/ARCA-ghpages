@@ -3,7 +3,7 @@
 
 *ARCA theme is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](TODO), or even [use it today](#usage).*
 
-![Thumbnail ARCA](thumbnail.png)
+![](thumbnail.png){width=25%}
 
 This theme is based on [Cayman theme](https://github.com/pages-themes/cayman) and [Leap-day theme](https://github.com/pages-themes/leap-day).
 
