@@ -1,0 +1,10 @@
+_site
+.sass-cache
+Gemfile.lock
+*.gem
+.jekyll-cache
+.jekyll-cache
+.Rproj.user
+
+.DS_Store
+.Rhistory
