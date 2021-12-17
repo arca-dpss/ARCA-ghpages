@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.license       = "CC0-1.0"
   s.authors       = ["Claudio Zandonella Callegher", "Filippo Gambarota"]
   s.email         = ["claudioznadonella@gmail.com"]
-  s.homepage      = "https://github.com/pages-themes/cayman"
+  s.homepage      = "https://github.com/arca-dpss/ARCA-ghpages"
   s.summary       = "theme-ARCA is a Jekyll theme for GitHub Pages"
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|

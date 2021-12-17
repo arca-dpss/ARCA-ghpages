@@ -3,6 +3,13 @@ course_title: Welcome to ARCA Course
 author_name: Author Name
 ---
 
+# Introuduction
+
+This is a github page for ARCA courses
+
+## Other info
+
+## Other other info
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
