@@ -460,6 +460,11 @@ nav {
   float: left;
   width: 15%;
   margin-right: 5%;
+  height: 300pt;
+  overflow: scroll;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 #my_content {
