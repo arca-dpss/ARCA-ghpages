@@ -1,7 +1,7 @@
 # The ARCA theme
 
 
-*ARCA theme is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](TODO), or even [use it today](#usage).*
+*ARCA theme is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://arca-dpss.github.io/ARCA-ghpages/), or even [use it today](#usage).*
 
 <img src="thumbnail.png" width="200"/>
 
