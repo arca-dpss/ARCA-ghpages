@@ -97,7 +97,7 @@ a {
   }
 
   @include small {
-    display: inline;
+    display: inline-block;
     padding: 0.35rem;
     font-size: 0.75rem;
 
