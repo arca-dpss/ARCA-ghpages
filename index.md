@@ -1,6 +1,7 @@
 ---
 course_title: Welcome to ARCA Course
 author_name: Author Name
+toc_depth: 2
 ---
 
 # Introduction
