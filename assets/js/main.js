@@ -1,3 +1,5 @@
+//----    Section Height    ----//
+
 var sectionHeight = function() {
   var total    = $(window).height(),
       $section = $('section').css('height','auto');
@@ -11,6 +13,8 @@ var sectionHeight = function() {
 }
 
 $(window).resize(sectionHeight);
+
+//----    Create Table of Contents (nav)    ----//
 
 $(function() {
   $("section h1, section h2").each(function(){
@@ -32,8 +36,24 @@ $(function() {
   $('img').on('load', sectionHeight);
 });
 
+//----    Move nav While Scrolling    ----//
 
-// Change Size Header While Scrolling
+$(window).scroll(function(){
+    var distanceFromTop = $(document).scrollTop();
+    if(distanceFromTop < 80 )
+    {
+      // Fixed
+      $('nav').css('top', '80px');
+    }
+    else
+    {
+      // increase
+      $('nav').css('top', (0 + $(document).scrollTop()) + 'px');
+    }
+});
+
+//----    Change Size Header While Scrolling    ----//
+
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
     if(distanceFromTop < 200 )
@@ -58,7 +78,8 @@ $(window).scroll(function(){
     }
 });
 
-// Add/Remove button While Scrolling
+//----    Add/Remove button While Scrolling    ----//
+
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
     if(distanceFromTop < 80 )
@@ -73,22 +94,9 @@ $(window).scroll(function(){
     }
 });
 
-// Move nav While Scrolling
-$(window).scroll(function(){
-    var distanceFromTop = $(document).scrollTop();
-    if(distanceFromTop < 80 )
-    {
-      // Fixed
-      $('nav').css('top', '80px');
-    }
-    else
-    {
-      // increase
-      $('nav').css('top', (0 + $(document).scrollTop()) + 'px');
-    }
-});
 
-// Change Background Image Size While Scrolling
+//----    Change Background Image Size While Scrolling    ----//
+
 $(window).scroll(function(){
     var distanceFromTop = $(document).scrollTop();
     if(distanceFromTop < 200 )
@@ -102,4 +110,3 @@ $(window).scroll(function(){
       $('.page-header').css('background-size', '90px');
     }
 });
-
